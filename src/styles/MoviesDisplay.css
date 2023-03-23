@@ -1,0 +1,100 @@
+.moviesDisplay {
+    /* background-color: red; */
+    width: 100%;
+    /* height: 500px; */
+    /* flex: 1 1 auto; */
+    min-height: calc(100dvh - 76px - 20px);
+}
+
+.moviesDisplay h1{
+    margin: 0;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.moviesDisplay .displayH1 {
+    margin-top: 20px;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+
+
+.moviesDisplay * {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+
+.movies {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    /* flex-direction: column; */
+    /* background-color: red; */
+    flex-wrap: wrap !important;
+    margin-bottom: 20px;
+}
+
+.movies .movie {
+    width: 350px !important;
+    background-color: rgb(52, 59, 73);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px; 
+    transition: all .3s ease;
+}
+
+/* .movies .movie:hover img {
+    width: 370px !important;
+    height: 370px !important;
+    transition: all .3s ease;
+} */
+
+.movies .movie:hover {
+    padding: 10px 5px !important;
+
+    background-color: rgb(67, 76, 94);
+}
+
+.movies .movie img {
+    border-radius: inherit;
+    transition: all .3s ease;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.movies .movie h1 {
+    font-size: 1.7rem;
+    margin: 15px 0;
+    font-weight: 500;
+    text-align: center;
+}
+
+.movies .movie div {
+    display: flex;
+    /* background-color: red; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 15px;
+}
+
+.movies .empty {
+    margin: 0 !important;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.movies .movie div p{
+    margin: 0 !important;
+    opacity: 0.7;
+    font-size: 1.1rem;
+    font-weight: 400;
+}

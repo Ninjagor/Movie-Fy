@@ -1,0 +1,49 @@
+.navbar {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    height: 75px;
+    background: rgb(41, 46, 56);
+    /* background-color: blue; */
+    border-bottom: 1px solid rgb(53, 60, 73);
+    gap: 10px;
+    /* width: 100%; */
+}
+
+.navbar h1 {
+    font-size: 1.5rem;
+    white-space: nowrap;
+    margin: 0;
+}
+.navbar input {
+    width: 400px;
+    height: 30px;
+    background-color: rgb(64, 73, 90);
+    border: none;
+    padding: 8px 20px;
+    border-radius: 40px;
+    color: rgb(170, 183, 207);
+    transition: all .3s ease;
+    font-weight: 700;
+}
+
+.navbar input:focus {
+    outline: none;
+    width: 650px;
+}
+.navbar input::placeholder {
+    color: rgb(170, 183, 207);
+    font-weight: 700;
+}
+
+.navbar button {
+    height: 40px;
+    width: 80px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--text-color);
+    cursor: pointer;
+}
